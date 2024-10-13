@@ -52,7 +52,7 @@ public class ClientCommandServiceImpl implements IClientCommandService {
             cliente.setIdentificacion(clienteDto.getIdentificacion());
             cliente.setDireccion(clienteDto.getDireccion());
             cliente.setTelefono(clienteDto.getTelefono());
-            cliente.setContraseña(clienteDto.getContraseña());
+            cliente.setContrasena(clienteDto.getContrasena());
             cliente.setEstado(clienteDto.getEstado());
             entityRepository.save(cliente);
 

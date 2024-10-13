@@ -19,6 +19,6 @@ public class Cliente extends Persona {
 
     @Column(unique = true)
     private String clienteId;
-    private String contraseña;
+    private String contrasena;
     private Boolean estado;
 }

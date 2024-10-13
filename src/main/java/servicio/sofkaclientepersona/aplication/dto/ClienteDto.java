@@ -18,6 +18,6 @@ public class ClienteDto implements Serializable {
     private   String direccion;
     private   String telefono;
     private   String clienteId;
-    private   String contraseña;
+    private   String contrasena;
     private   Boolean estado;
 }
