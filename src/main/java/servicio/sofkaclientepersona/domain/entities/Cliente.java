@@ -14,7 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "cliente")
+@Table(name = "clientes")
 public class Cliente extends Persona {
 
     @Column(unique = true)

@@ -25,7 +25,7 @@ public class Validate {
 
     public void ValidateData(Long id){
        Objects.requireNonNull(id, FUND_NULL);
-       if (id < 0 || id == null) {
+       if (id <= 0) {
          throw new IllegalArgumentException(FUND_ID_NULL);
        }
     }

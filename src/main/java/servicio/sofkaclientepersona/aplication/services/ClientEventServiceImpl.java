@@ -21,7 +21,7 @@ public class ClientEventServiceImpl implements IClientEventService {
     public ClientEventServiceImpl(ClienteEntityRepository entityRepository, Validate validate) {
         this.repository = entityRepository;
         this.validate = validate;
-        this.mapper = new ModelMapper();;
+        this.mapper = new ModelMapper();
     }
 
     @Override
