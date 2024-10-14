@@ -19,7 +19,7 @@ public class KafkaTopicConfig {
         configTopic.put(TopicConfig.SEGMENT_BYTES_CONFIG, "1073741824"); //tamaño maximo del segmento - 1GB
         configTopic.put(TopicConfig.MAX_MESSAGE_BYTES_CONFIG,"1073741824"); //tamaño maximo del mensaje
 
-        return TopicBuilder.name("PROFESSIONAL-SMS")
+        return TopicBuilder.name("PERSONA_TOPIC")
                 .partitions(1)
                 .replicas(1)
                 .configs(configTopic)

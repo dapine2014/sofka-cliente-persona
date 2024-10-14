@@ -6,7 +6,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 
 @Configuration
 public class KafkaConsumerListener {
-    private static final String TOPIC_NAME = "CLIENT_TOPIC";
+    private static final String TOPIC_NAME = "PERSONA_TOPIC";
     private static final String GROUP_ID = "notification-service";
     private final MessageHandler messageHandler;
 
